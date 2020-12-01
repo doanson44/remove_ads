@@ -17,6 +17,11 @@
       "all_frames": true,
       "css": ["phimmoizz.css"],
       "js": ["phimmoizz.js"]
+    },
+    {
+      "matches": ["*://*.vkool.net/*"],
+      "all_frames": true,
+      "css": ["phim.vkool.css"]
     }
   ],
   "manifest_version": 2

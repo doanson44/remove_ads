@@ -1,0 +1,14 @@
+.ad_top_banner, 
+#left_float_ads_content, 
+#ad_top_player, 
+#ad_right_watch, 
+#right_float_ads_content, 
+.float-ck, 
+#ad_bellow_player, 
+.catfish-ck, 
+#float_content, 
+div[id^="MarketGidComposite"],
+div[id^="ad_"],
+iframe[id^="bg_"] {
+    display: none !important;
+}

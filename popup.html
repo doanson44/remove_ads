@@ -2,41 +2,66 @@
 <html>
 
 <head>
-  <title>Set Page Color Popup</title>
+  <title>Remove Ads</title>
   <style>
-    body {
-      overflow: hidden;
-      margin: 0px;
-      padding: 0px;
-      background: white;
-    }
-
-    div:first-child {
-      margin-top: 0px;
-    }
-
-    div {
-      cursor: pointer;
+    .btn {
+      display: inline-block;
+      font-weight: 400;
+      color: #212529;
       text-align: center;
-      padding: 1px 3px;
-      font-family: sans-serif;
-      font-size: 0.8em;
-      width: 100px;
-      margin-top: 1px;
-      background: #cccccc;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     }
 
-    div:hover {
-      background: #aaaaaa;
+    .btn-outline-primary {
+      color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+    }
+
+    .m-1 {
+      margin: .25rem !important;
+    }
+
+    .p-1 {
+      padding: .25rem !important;
+    }
+
+    .btn-outline-danger {
+      color: #dc3545;
+      border-color: #dc3545;
+    }
+
+    .btn-outline-warning {
+      color: #ffc107;
+      border-color: #ffc107;
     }
   </style>
   <script src="popup.js"></script>
 </head>
 
 <body>
-  <div id="play1">Play x1</div>
-  <div id="play15">Play x1.5</div>
-  <div id="play2">Play x2</div>
+  <div class="container-fluid" style="width: 100px;">
+    <div class="row">
+      <button type="button" class="btn btn-outline-primary btn-block m-1 p-1" id="play1">Play x1</button>
+      <button type="button" class="btn btn-outline-danger btn-block m-1 p-1" id="play15">Play x1.5</button>
+      <button type="button" class="btn btn-outline-warning btn-block m-1 p-1" id="play2">Play x2</button>
+    </div>
+  </div>
 </body>
 
 </html>
