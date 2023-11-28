@@ -3,63 +3,22 @@
 
 <head>
   <title>Remove Ads</title>
-  <style>
-    .btn {
-      display: inline-block;
-      font-weight: 400;
-      color: #212529;
-      text-align: center;
-      vertical-align: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      background-color: transparent;
-      border: 1px solid transparent;
-      padding: .375rem .75rem;
-      font-size: 1rem;
-      line-height: 1.5;
-      border-radius: .25rem;
-      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    }
-
-    .btn-outline-primary {
-      color: #007bff;
-      border-color: #007bff;
-    }
-
-    .btn-block {
-      display: block;
-      width: 100%;
-    }
-
-    .m-1 {
-      margin: .25rem !important;
-    }
-
-    .p-1 {
-      padding: .25rem !important;
-    }
-
-    .btn-outline-danger {
-      color: #dc3545;
-      border-color: #dc3545;
-    }
-
-    .btn-outline-warning {
-      color: #ffc107;
-      border-color: #ffc107;
-    }
-  </style>
+  <link rel="stylesheet" href="popup.css">
   <script src="popup.js"></script>
 </head>
 
 <body>
-  <div class="container-fluid" style="width: 100px;">
+  <div class="container-fluid" style="width: 125px;">
     <div class="row">
+      <button type="button" class="btn btn-outline-warning btn-block m-1 p-1" id="skipI9bet">Skip i9bet</button>
       <button type="button" class="btn btn-outline-primary btn-block m-1 p-1" id="play1">Play x1</button>
-      <button type="button" class="btn btn-outline-danger btn-block m-1 p-1" id="play15">Play x1.5</button>
-      <button type="button" class="btn btn-outline-warning btn-block m-1 p-1" id="play2">Play x2</button>
+      <button type="button" class="btn btn-outline-secondary btn-block m-1 p-1" id="play15">Play x1.5</button>
+      <button type="button" class="btn btn-outline-success btn-block m-1 p-1" id="play175">Play x1.75</button>
+      <button type="button" class="btn btn-outline-danger btn-block m-1 p-1" id="play2">Play x2</button>
+      <div class="btn-group" role="group" aria-label="Speed">
+        <button type="button" class="btn btn-outline-primary" id="playMinus025">-0.25</button>
+        <button type="button" class="btn btn-outline-primary" id="playPlus025">+0.25</button>
+      </div>
     </div>
   </div>
 </body>

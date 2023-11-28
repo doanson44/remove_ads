@@ -1,0 +1,3 @@
+[id="overlay-center"] > a:nth-child(2) > img {
+    display: none !important;
+}

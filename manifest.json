@@ -24,6 +24,12 @@
       "all_frames": true,
       "css": ["phim.vkool.css"],
       "js": ["phim.vkool.js"]
+    },
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "css": ["all_sites.css"],
+      "js": ["all_sites.js"]
     }
   ],
   "manifest_version": 3

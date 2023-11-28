@@ -1,7 +1,7 @@
 var videoList = document.getElementsByTagName("video");
 if (videoList != null && videoList.length > 0) {
     for (var i = 0; i < videoList.length; i++) {
-        videoList[i].playbackRate = 1.5;
+        videoList[i].playbackRate = 1.75;
     }
 }
 
@@ -21,7 +21,7 @@ if (iframes != null && iframes.length > 0) {
 
             if (videos != null && videos.length > 0) {
                 for (var j = 0; j < videos.length; j++) {
-                    videos[j].playbackRate = 1.5;
+                    videos[j].playbackRate = 1.75;
                 }
             }
         }
