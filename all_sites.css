@@ -1,11 +1,10 @@
-.ad-container.watch-banner-1, 
-.ad-container.watch-banner-2, 
-#catfish, 
-.ad-container, 
-#hide_catfish, 
-#transparent-overlay, 
+.ad-container.watch-banner-1,
+.ad-container.watch-banner-2,
+.ad-container,
+#hide_catfish,
+#transparent-overlay,
 #footer_fixed_ads,
 #popup-giua-man-hinh,
 .ads {
-    display: none !important;
+  display: none !important;
 }
